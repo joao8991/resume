@@ -1,0 +1,30 @@
+.page-holder{
+    position: absolute;
+    height: 96vh;
+    aspect-ratio: 210/297;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+.page{
+    background: white;
+    height: 100%;
+    width: 100%;
+}
+
+.scaler{
+    position: absolute;
+    width: 40px;
+    aspect-ratio: 1;
+    border-radius: 100%;
+    background: black;
+    padding: 20px;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    z-index: 100;
+    cursor: pointer;
+}
