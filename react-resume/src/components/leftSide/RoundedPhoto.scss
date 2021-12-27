@@ -1,0 +1,63 @@
+.container {
+    position: relative;
+    width: 100%; /* The size you want */
+    padding: 0;
+
+    &:after {
+        content: "";
+        display: block;
+        padding-bottom: 100%; /* The padding depends on the width, not on the height, so with a padding-bottom of 100% you will get a square */
+    }
+
+    & img {
+        border-radius: 100%;
+        position: absolute; /* Take your picture out of the flow */
+        // padding: 10px;
+        top: 10px;
+        bottom: 10px;
+        left: 10px;
+        right: 10px; /* Make the picture taking the size of it's parent */
+        width: calc(100% - 20px); /* This if for the object-fit */
+        height: calc(100% - 20px); /* This if for the object-fit */
+        object-fit: 0 0; /* Equivalent of the background-size: cover; of a background-image */
+        object-position: 0 10%;
+        transition: 0.2s;
+        border: 2px solid white;
+    }
+
+
+    &:hover{
+        .arrow{
+            opacity: 1;
+        }
+    }
+}
+
+.arrow {
+	position: absolute;
+	width: 0;
+	height: 0;
+    
+    border: 7px solid transparent;
+    border-top: 7px solid hsla(0,0%,100%, 0.8);
+    border-left: 7px solid hsla(0,0%,100%, 0.8);
+    transition: 0.4s;
+    top: 50%;
+    cursor: pointer;
+    opacity: 0;
+
+    &.left{
+        transform: translate(160%) rotate(-45deg);
+    }
+    
+    &.right{
+        transform: translate(-160%) rotate(135deg);
+        right: 0;
+    }
+
+	&:hover {
+        border-left-color: hsla(0,0%,100%, 1);
+        border-top-color: hsla(0,0%,100%, 1);
+	}
+	
+}

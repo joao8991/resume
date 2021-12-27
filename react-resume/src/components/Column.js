@@ -1,4 +1,4 @@
-import './Column.css';
+import './Column.scss';
 
 const Column = (props) => {
     const { width, widthOffsetPx, backgroundColor, children} = props;
