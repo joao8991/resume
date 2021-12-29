@@ -9,7 +9,7 @@ const LeftSide = (props) => {
         <h3 className="fw-bold">Game Developer</h3>
         <div className="d-flex">
             <h4>Freelancer</h4>
-            <h4 className="ms-1 fw-light">2015 - Forever</h4>
+            <h4 className="ms-1 fw-light">2015 - Present</h4>
         </div>
         <ul>
             {line("Creativity, game theory, and development")}
@@ -31,8 +31,11 @@ const LeftSide = (props) => {
             <h4 className="ms-1 fw-light">July 2019 - Present</h4>
         </div>
         <ul>
-            {line("Agile team developing a marketplace that allows the users to install features on trucks over-the-air")}
+            {line("Agile team developing a marketplace that allows the users to install truck features over-the-air")}
             {line("Backend technical challenge of data transfer between many teams")}
+            {line("Implementation of responsive React components with communication async with the backend")}
+            {line("Participate in UI/UX brainstormings and problem solving meetings")}
+            {line("Regular Scrum meetings to organize and refine team sprints")}
             {line("Tech used: React, Java(with Spring), Node.js, Docker, AWS(for data transfer and deploy), Kafka, Cypress")}
         </ul>
 
@@ -40,8 +43,12 @@ const LeftSide = (props) => {
         <h3 className="fw-bold">BSc Computer Science</h3>
         <div className="d-flex">
             <h4>Faculty of Science of University of Lisbon</h4>
-            <h4 className="ms-1 fw-light">2016 - 2020</h4>
+            <h4 className="ms-1 fw-light">2016-20</h4>
         </div>
+        <ul>
+            {line("Object Oriented Programming, Algorithms and Data Structures, Distributed Systems, Databases, Computer Theory, Security, Computer Networks")}
+            {line("Artificial intelligence, Logic, Calculus, Linear Algebra")}
+        </ul>
 
     </div>)
 }

@@ -3,10 +3,6 @@
     & a{
         color: var(--bs-gray-600);
         text-decoration: none;
-        transition: 0.4s;
-        &:hover{
-            transform: scale(1.1);
-        }
     }
     & .icon{
         text-align: center;

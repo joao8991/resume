@@ -15,7 +15,6 @@ const RightSide = (props) => {
         <div className="d-flex">
             <h4 className="flex-grow-1">Portuguese</h4>
             {[1,1,1,1,1].map(value => renderCircle(value))}
-            
         </div>
         <div className="d-flex">
             <h4 className="flex-grow-1">English</h4>

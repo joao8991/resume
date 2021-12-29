@@ -8,10 +8,10 @@ library.add(faMapMarkerAlt, faEnvelope, faMobileAlt, faCalendarAlt)
 
 const Info = () => {
 
-    return <div>
-        <p className="description text-center text-size-h4">
-            Full stack developer with 2+ years of working experience.
-            Developed web games for millions of users while studying.
+    return <div className="mb-3">
+        <p className="description mb-3 text-center text-size-h4 fw-normal">
+            Full stack developer with 2+ years of working experience in agile development team.
+            In the spare time developed web games for millions of users.
         </p>
         <div className="d-flex justify-content-evenly">
             <div className="d-flex info">
@@ -28,7 +28,11 @@ const Info = () => {
             </div>
             <div className="d-flex info">
                 <h5 className="icon"><FontAwesomeIcon icon="map-marker-alt" /></h5>
-                <h5 className="text"><a target="_blank" href="https://www.google.pt/maps/place/Lisbon/@38.7436214,-9.1952226,13z" rel="noreferrer">Lisbon, Portugal</a></h5>
+                <h5 className="text"><a
+                    target="_blank" 
+                    href="https://www.google.pt/maps/place/Lisbon/@38.7436214,-9.1952226,13z"
+                    rel="noreferrer">
+                        Lisbon, Portugal</a></h5>
             </div>
         </div>
     </div>
