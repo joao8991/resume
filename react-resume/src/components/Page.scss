@@ -12,35 +12,35 @@
     background: white;
     height: 100%;
     width: 100%;
-
+    padding: 20px;
     &:hover .scaler{
         opacity: 1;
     }
 }
 
-.scaler{
-    position: absolute;
-    
-    border-radius: 100%;
-    padding: 2.5em;
-    top: 50%;
-    -moz-transform: translateX(-50%) translateY(-50%);
-    -webkit-transform: translateX(-50%) translateY(-50%);
-    transform: translateX(-50%) translateY(-50%);
-    z-index: 100;
-    transition: 0.2s opacity;
-    
-    opacity: 0;
-    cursor: pointer;
-    background: white;
+.name {
+    font-size: 8em;
+    width: 100%;
+    text-align: center;
+    font-weight: 200;
+}
 
-    & .icon{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        padding: 6px;
-        text-align: center;
-        left: 0;
-        top: 0;
+.tech{
+    padding: 4px;
+    font-weight: 500;
+    margin-right: 6px;
+    margin-bottom: 6px;
+    background-color: #cdefff;
+    border-radius: 2px;
+}
+
+.circle{
+    width: 1em;
+    height: 1em;
+    margin: 4px;
+    opacity: 0.2;
+    border-radius: 100%;
+    &.positive{
+        opacity: 1;
     }
 }
