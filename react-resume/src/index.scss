@@ -24,8 +24,12 @@ ul {
   padding-left: 2em;
 }
 a {
+  color: black;
   transition: opacity 0.2s;
   &:hover{
     opacity: 0.6;
   }
+}
+.fw-500{
+  font-weight: 500!important;
 }

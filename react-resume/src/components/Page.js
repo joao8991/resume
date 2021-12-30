@@ -17,6 +17,7 @@ const Page = () => {
                 <LeftSide appColor={leftColumnBackgroundColor}/>
                 <RightSide appColor={leftColumnBackgroundColor}/>
             </div>
+            <h6 className="footer-note">This resume was made with ReactJS</h6>
         </div>
     </div>
 }
