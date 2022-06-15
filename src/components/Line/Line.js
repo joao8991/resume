@@ -1,0 +1,1 @@
+export const Line = (props) => <li className="text-size-h4">{props.children}</li>
